@@ -46,8 +46,9 @@ btn.onclick = function() {
     btn.style.display = 'none';
     Refresh_btn.style.display = 'block';
 
-   Refresh_btn.onclick = function() {
-    location.reload();
+    Refresh_btn.onclick = function() {
+      location.reload();
+    }
   }
 
 }
